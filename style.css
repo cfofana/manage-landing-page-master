@@ -76,8 +76,9 @@ table {
   
 body {
 	font-size: 16px;
-	width: 80%;
-	margin: 30px auto;
+	/* width: 85%; */
+	margin: 20px auto;
+	color : var(--dark-blue);
 }
 .main-nav {
 	display: flex;
@@ -96,22 +97,22 @@ body {
     margin: 0; */
 }
 .nav-menu ul a {
+	color: var(--dark-blue);
 	text-decoration: none;
 	padding: 10px 10px;
-	color: black;
 }
 .nav-menu ul a:hover {
-	color : var(--very-light-gray);
+	color : var(--dark-grayish-blue);
 }
 .call-to-action-button {
-	background-color:hsl(12, 88%, 59%);
-	color: white;
+	background-color:var(--bright-red);
+	color: var(--very-pale-red);
 	border-radius: 20px;
 	border: none;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	padding: 10px 20px;
 }
-.get-started:hover {
+.call-to-action-button:hover {
 	background-color: var(--very-pale-red);
 }
 .slideout-menu {
@@ -124,18 +125,35 @@ body {
 	align-items: center;
 	flex-direction:row;
 }
-.attention-words h1 {
+.hero h1 {
 	font-size: 36px;
 }
-.attention-words p {
-
+.hero p {
+	color : var(--dark-grayish-blue);
+}
+.what-is-different p {
+	color : var(--dark-grayish-blue);
+}
+.testimonials p {
+	color : var(--dark-grayish-blue);
 }
 
 .simplify {
 	background-color: var(--bright-red);
 	color: white;
+	padding : 50px;
+	width: 100%;
+}
+.simplify p {
+	color: var(--very-pale-red);
+	font-size: 36px;
+}
+.cta-inverse {
+	color: var(--bright-red);
+	background-color: var(--very-light-gray);
 }
 footer {
 	background-color: var(--dark-blue);
-	color: white;
+	color: var(--very-light-gray);
+	padding: 30px;
 }
