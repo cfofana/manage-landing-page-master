@@ -139,10 +139,9 @@ body {
 }
 
 .simplify {
+	padding: 100px 20px;
 	background-color: var(--bright-red);
-	color: white;
-	padding : 50px;
-	width: 100%;
+	background-image:url('images/bg-simplify-section-desktop.svg');
 }
 .simplify p {
 	color: var(--very-pale-red);
