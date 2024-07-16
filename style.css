@@ -157,3 +157,7 @@ footer {
 	color: var(--very-light-gray);
 	padding: 30px;
 }
+.search {
+	color: white;
+	font-size: 40px;
+}
