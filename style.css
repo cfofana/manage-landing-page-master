@@ -76,14 +76,21 @@ table {
   
 body {
 	font-size: 16px;
-	/* width: 85%; */
-	margin: 20px auto;
+	margin: 0 auto;
 	color : var(--dark-blue);
+	background: url('images/bg-tablet-pattern.svg') no-repeat;
+	background-position: top right;
+}
+.container {
+	width : 85%;
+	margin: 0 auto;
 }
 .main-nav {
 	display: flex;
 	justify-content:space-between;
+	align-items: center;
 	padding: 10px;	
+	outline: 2px solid black;
 }
 .main-nav.logo-img {
 
@@ -111,6 +118,7 @@ body {
 	border: none;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	padding: 10px 20px;
+	display: inline-block;
 }
 .call-to-action-button:hover {
 	background-color: var(--very-pale-red);
@@ -119,6 +127,7 @@ body {
 	display: none;
 }
 .hero {
+	padding: 20px 50px;
 	/* height: 70vh; */
 	display: flex;
 	justify-content: center;
@@ -137,7 +146,9 @@ body {
 .testimonials p {
 	color : var(--dark-grayish-blue);
 }
-
+.avatar {
+	background-color: var(--very-light-gray);
+}
 .simplify {
 	padding: 100px 20px;
 	background-color: var(--bright-red);
