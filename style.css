@@ -90,7 +90,6 @@ body {
 	justify-content:space-between;
 	align-items: center;
 	padding: 10px;	
-	outline: 2px solid black;
 }
 .main-nav.logo-img {
 
@@ -111,6 +110,9 @@ body {
 .nav-menu ul a:hover {
 	color : var(--dark-grayish-blue);
 }
+.space-between-sections {
+	margin-bottom : 100px;
+}
 .call-to-action-button {
 	background-color:var(--bright-red);
 	color: var(--very-pale-red);
@@ -128,17 +130,33 @@ body {
 }
 .hero {
 	padding: 20px 50px;
-	/* height: 70vh; */
+	height: 75vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction:row;
+	/* outline : 2px solid black; */
 }
 .hero h1 {
 	font-size: 36px;
+	margin-bottom : 20px;
+	line-height: 1.2em;
 }
 .hero p {
 	color : var(--dark-grayish-blue);
+	margin-bottom : 20px;
+	line-height: 1.3em;
+
+}
+.attention-words {
+	/* outline : 2px solid black; */
+	margin-right : 50px;
+}
+.stats-image {
+	/* outline : 2px solid black; */
+}
+.stats-image img {
+	width: 350px;
 }
 .what-is-different p {
 	color : var(--dark-grayish-blue);
